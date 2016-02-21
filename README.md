@@ -1,6 +1,8 @@
 redstone
 ========
 
+[![Join the chat at https://gitter.im/nikhiljha/redstone](https://badges.gitter.im/nikhiljha/redstone.svg)](https://gitter.im/nikhiljha/redstone?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
+
 A distributed, infinite-player Minecraft server that runs on Node.js.
 
 Redstone can support theoretically infinite players in one game world by transparently breaking up the work to multiple servers. Being based on Node.js, it has blazing fast IO performance, which means lower resource consumption and lower latency than standard Java servers.
