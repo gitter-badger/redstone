@@ -1,13 +1,13 @@
 {
   "name": "redstone",
   "version": "0.1.0",
-  "description": "A fast, scalable Minecraft server",
+  "description": "A fast, distributed, scalable Minecraft server",
   "main": "bin/redstone",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": "",
-  "author": "Matt Bell <mappum@gmail.com>",
+  "author": "Nikhil Jha <nikhil.from.irvine@gmail.com>",
   "license": "BSD",
 
   "dependencies": {
@@ -19,7 +19,7 @@
     "mongodb": "1.2.x",
     "async": "0.2.x",
     "sock": "0.0.6",
-    "aws-sdk": "0.9.x",
+    "aws-sdk": "2.2.37",
     "express": "3.2.6"
   }
 }

@@ -9,10 +9,10 @@ program
   .version('0.0.0')
   .option('-c, --connector', 'Run a connector instance')
   .option('-s, --server', 'Run a server instance')
-  .option('-m, --master [master]', 'Run a master instance, or specify a master to connect to')
+  .option('-m, --master [master]', 'Run a master instance or specify a master to connect to')
   .option('--control <port>', 'Changes the port used for control protocol')
   .option('-S, --suppress', 'Supress logging')
-  .option('-v, --verbose', 'Log more detailed stuff')
+  .option('-v, --verbose', 'Create more detailed logs')
   .option('-C, --chat', 'Log chat')
   .option('--config [file]', 'Loads the specified config file', '../config')
   .parse process.argv
